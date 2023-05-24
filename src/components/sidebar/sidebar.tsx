@@ -1,5 +1,6 @@
 import React, { FC, ReactElement } from 'react';
 
+import { CreateTaskForm } from '../createTaskForm/createTaskForm';
 import { Grid } from '@mui/material';
 import { Profile } from '../profile/profile';
 
@@ -22,6 +23,7 @@ export const Sidebar: FC = (): ReactElement => {
       }}
     >
       <Profile name="Jerry" />
+      <CreateTaskForm />
     </Grid>
   );
 };
